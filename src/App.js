@@ -1,7 +1,8 @@
 import './App.css';
+import TodoList from './TodoList/TodoList';
 function App(){
   return(
-    <div>Hello wold</div>
+    <TodoList/>
   )
 }
 
