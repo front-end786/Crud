@@ -24,12 +24,19 @@ main{
   max-width: 1240px;
   margin:auto;
   padding: 1rem 2rem;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1,h2,h3,h4{
   font-family: sans-serif;
   font-weight:700;
 }
+h1{
+  font-size: 4rem;
+  font-style: italic;
+}
+
 h3{
   font-size: 3.5rem;
   text-align: center;
@@ -45,7 +52,6 @@ h3{
   align-items: center;
   gap: 2rem;
   margin: 1rem 0;
-  justify-content: center;
 
 }
 
@@ -114,3 +120,6 @@ input{
   border-radius: 0.5rem;
 }
 
+.complete{
+  background-color: #4CAF50;
+}
