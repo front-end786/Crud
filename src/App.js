@@ -1,9 +1,13 @@
 import './App.css';
-import TodoList from './TodoList/TodoList';
-function App(){
-  return(
-    <TodoList/>
-  )
+import TodoList from './TodoList';
+
+function App() {
+  return (
+    <main>
+
+      <TodoList/>
+    </main>
+  );
 }
 
 export default App;
